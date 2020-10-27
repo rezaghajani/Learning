@@ -1,7 +1,8 @@
 package main 
 
-import "fmt"
+import ("fmt"
+		"math")
 
 func main() {
-	fmt.Println("Hello world!")
+	fmt.Println("The squre root of 4 is " ,  math.Sqrt(4))
 }
