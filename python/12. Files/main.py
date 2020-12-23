@@ -5,13 +5,16 @@ print(file)
 filecontent = file.read()
 print(filecontent)
 
-fname = input("Enter your file name: ")
+# filename = input("Enter your file name: ")
 
-try:
-    fhand = open(fname)
-except:
-    print("There is no file with that name" + fname)
-    exit()
+#try:
+    #fhand = open(filename)
+#except:
+    #print("There is no file with that name" + filename)
+    #exit()
 
-fread = fhand.read()
-print(fread)
+#fread = fhand.read()
+#print(fread)
+
+file2 = open("line.txt" , "w")
+print(file2)
