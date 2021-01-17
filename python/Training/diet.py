@@ -7,10 +7,9 @@ green = 0
 for char in chars:
     values.append(char)
     
-    
 for i in range(len(values)):
     if values[i] == "G":
-        green = green +1
+        green = green + 1
     elif values[i] == "R":
         red = red + 1
     elif values[i] == "Y":
