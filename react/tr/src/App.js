@@ -5,7 +5,7 @@ function App() {
   const name = 'reza'
   return (
     <div className="container">
-      <Header name='reza'/>
+      <Header />
       <h1>Hello from react</h1>
       <h2>Hello { name }</h2>
     </div>

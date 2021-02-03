@@ -5,5 +5,9 @@ const Header = (props) => {
         </header>
      );
 }
+
+Header.defaultProps = { 
+    name: 'Ahmad'
+}
  
 export default Header;
