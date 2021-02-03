@@ -2,14 +2,15 @@ import PropTypes from 'prop-types';
 
 const Header = (props) => {
     return ( 
-        <header>
-            <h1>{props.name}</h1>
+        <header className="header">
+            <h1>{props.title}</h1>
+            <button className='btn'>Add</button>
         </header>
      );
 }
 
 Header.defaultProps = { 
-    name: 'Ahmad'
+    title: 'Task Tracker'
 }
 
 Header.propTypes = {
