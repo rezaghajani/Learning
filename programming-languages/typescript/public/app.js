@@ -12,6 +12,7 @@ var Invoice = /** @class */ (function () {
     return Invoice;
 }());
 var invOne = new Invoice('reza', 'poole ab', 30000);
+console.log(invOne.format(), invOne.details);
 console.log(invOne);
 var form = document.querySelector('.new-item-form');
 // console.log(form.children)

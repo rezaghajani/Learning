@@ -1,8 +1,8 @@
 // classes
 class Invoice {
-    client: string;
-    details: string;
-    amount: number;
+    readonly client: string;
+    private details: string;
+    public amount: number;
 
     constructor(c: string, d: string, a:number){
         this.client = c
@@ -16,6 +16,8 @@ class Invoice {
 }
 
 const invOne = new Invoice('reza','poole ab',30000)
+
+console.log(invOne.format(),invOne.details)
 
 console.log(invOne)
 
